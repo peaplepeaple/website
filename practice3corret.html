@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0px;
+    }
+    body{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    header{
+      background: gray;
+      padding:20px;
+      margin:0px;
+      font-size: 35px;
+      font-style: dotum;
+      color: white;
+    }
+
+    nav{
+      text-align: center;
+      width: 17%;
+    }
+    ul{
+      padding: 0px;
+    }
+    li{
+      flex-direction: column;
+      padding:17px;
+      background: dodgerblue;
+      display: block;
+      margin: 15px;
+    }
+    a{
+      text-decoration: none;
+      color:white;
+    }
+    li:hover{
+      background: red;
+    }
+    main{
+      width: 75%;
+      padding:15px;
+      text-align: left;
+    }
+    footer{
+      background: gray;
+      padding:30px;
+      color: white;
+    }
+    @media(max-width:500px) {
+      section{
+        flex-direction: column;
+      }
+      nav{
+        width: 90%;
+      }
+      li{
+        width: 95%;
+      }
+    }
+    section{
+      display: flex;
+    }
+  </style>
+</head>
+
+<body>
+  <header>China</header>
+  <section>
+    <nav>
+      <ul>
+        <li><a href="#">The fligt</a></li>
+        <li><a href="#">The island</a></li>
+        <li><a href="#">The food</a></li>
+        <li><a href="#">The City</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>China</h1>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed illum tenetur quae cum, voluptate nisi in atque eligendi fugiat, dolore, quo vero saepe placeat sunt quam repellat perspiciatis perferendis. Facilis hic, repellat excepturi qui consequatur totam eligendi saepe quia reiciendis magni nihil doloribus adipisci, deleniti blanditiis debitis voluptate perferendis dolor nisi labore laboriosam culpa vel. Laborum ut, minus dolore! Nulla, fugit tempora eaque, itaque repellat doloribus iusto quos deleniti ut sapiente incidunt doloremque corporis vel voluptas rerum est. Esse voluptatum et voluptatem unde, odit ab at incidunt possimus, perspiciatis dolores consequatur quidem alias, minima repellat voluptates ducimus, odio libero minus!
+      </div>
+    </main>
+  </section>
+  <footer>footer text</footer>
+</body>
+
+</html>
