@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    html{
+      height: 100%;
+      background:linear-gradient(to bottom right, #999999 7%, #9933ff 100%);
+      margin: 0;
+      padding: 0;
+    }
+    #bg{
+      opacity: 0.1;
+      position: absolute;
+      margin: 0;
+      width: 99.6%;
+      height: 99.1%;
+      z-index: 1;
+    }
+    #logo{
+      width: 600px;
+      height: 350px;
+      position: absolute;
+      top: 15px;
+      left: 650px;
+      z-index: 2;
+    }
+    section{
+      padding-top: 400px;
+      text-align: center;
+    }
+    div{
+      text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+      color: #1265E2;
+      font-size: 80px;
+      font-family: Tahoma;
+      z-index: 3;
+    }
+    a:hover{
+      background: red;
+    }
+    footer{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 50px;
+    }
+    .link{
+      display: block;
+      z-index: 4;
+      text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+      border: 3px solid red;
+      width: 400px;
+      height: 65px;
+      border-radius: 30px;
+      font-size: 40px;
+      padding:17px;
+      margin:10px;
+      text-decoration: none;
+      text-align: center;
+      color: black;
+    }
+    /*글꼴 추가*/
+  </style>
+</head>
+
+<body>
+  <img id="bg" src="images/도시.jpg" alt="도시배경화면">
+  <header><img id="logo" src="images/2차로고notbackground.png" alt="사이트로고"></header>
+  <section>
+    <div>What Do You Want?</div>
+  </section>
+  <footer><a href="search.html" class="link">Search</a><a href="shopping.html" class="link">Shopping</a><a href="hardware.html" class="link">Computer Hardware</a><a href="helping.html" class="link">The site Helping us</a></footer>
+</body>
+
+</html>
